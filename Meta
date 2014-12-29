@@ -1,0 +1,26 @@
+=meta: 0.0.2
+
+name: Acme-Alt-Dep-Test
+version: '0.0.1'
+abstract: Test Module for Depping on Alted Modules
+homepage: https://metacpan.org/release/Acme-Alt-Dep-Test
+language: perl
+license: perl
+copyright: 2014
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/acme-alt-dep-test-pm
+  bug: https://github.com/ingydotnet/acme-alt-dep-test-pm/issues
+  irc: irc.freenode.net#pkg
+
+requires:
+  perl: 5.8.1
+  Acme::Math::XS: 0
